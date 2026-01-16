@@ -1,0 +1,1967 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0524.1403                               -->
+<workbook original-version='18.1' source-build='2024.1.3 (20241.24.0524.1403)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Hospital ER_Data' inline='true' name='federated.18s0ba30gnluvr1e3069l0g0o0hu' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Hospital ER_Data' name='textscan.188ig2t0cuknu51cuwe9h0q20i8w'>
+            <connection class='textscan' directory='C:/Users/amans/Downloads' filename='Hospital ER_Data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.188ig2t0cuknu51cuwe9h0q20i8w' name='Hospital ER_Data.csv' table='[Hospital ER_Data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Patient Id' ordinal='0' />
+            <column datatype='datetime' name='Patient Admission Date' ordinal='1' />
+            <column datatype='string' name='Patient First Inital' ordinal='2' />
+            <column datatype='string' name='Patient Last Name' ordinal='3' />
+            <column datatype='string' name='Patient Gender' ordinal='4' />
+            <column datatype='integer' name='Patient Age' ordinal='5' />
+            <column datatype='string' name='Patient Race' ordinal='6' />
+            <column datatype='string' name='Department Referral' ordinal='7' />
+            <column datatype='boolean' name='Patient Admission Flag' ordinal='8' />
+            <column datatype='integer' name='Patient Satisfaction Score' ordinal='9' />
+            <column datatype='integer' name='Patient Waittime' ordinal='10' />
+            <column datatype='integer' name='Patients CM' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.188ig2t0cuknu51cuwe9h0q20i8w' name='Hospital ER_Data.csv' table='[Hospital ER_Data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Patient Id' ordinal='0' />
+            <column datatype='datetime' name='Patient Admission Date' ordinal='1' />
+            <column datatype='string' name='Patient First Inital' ordinal='2' />
+            <column datatype='string' name='Patient Last Name' ordinal='3' />
+            <column datatype='string' name='Patient Gender' ordinal='4' />
+            <column datatype='integer' name='Patient Age' ordinal='5' />
+            <column datatype='string' name='Patient Race' ordinal='6' />
+            <column datatype='string' name='Department Referral' ordinal='7' />
+            <column datatype='boolean' name='Patient Admission Flag' ordinal='8' />
+            <column datatype='integer' name='Patient Satisfaction Score' ordinal='9' />
+            <column datatype='integer' name='Patient Waittime' ordinal='10' />
+            <column datatype='integer' name='Patients CM' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Hospital ER_Data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patient Id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Patient Id]</local-name>
+            <parent-name>[Hospital ER_Data.csv]</parent-name>
+            <remote-alias>Patient Id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital ER_Data.csv_7744C10C2E68485DA9B2E44790ED4B4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patient Admission Date</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Patient Admission Date]</local-name>
+            <parent-name>[Hospital ER_Data.csv]</parent-name>
+            <remote-alias>Patient Admission Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital ER_Data.csv_7744C10C2E68485DA9B2E44790ED4B4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patient First Inital</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Patient First Inital]</local-name>
+            <parent-name>[Hospital ER_Data.csv]</parent-name>
+            <remote-alias>Patient First Inital</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital ER_Data.csv_7744C10C2E68485DA9B2E44790ED4B4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patient Last Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Patient Last Name]</local-name>
+            <parent-name>[Hospital ER_Data.csv]</parent-name>
+            <remote-alias>Patient Last Name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital ER_Data.csv_7744C10C2E68485DA9B2E44790ED4B4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patient Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Patient Gender]</local-name>
+            <parent-name>[Hospital ER_Data.csv]</parent-name>
+            <remote-alias>Patient Gender</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital ER_Data.csv_7744C10C2E68485DA9B2E44790ED4B4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patient Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Patient Age]</local-name>
+            <parent-name>[Hospital ER_Data.csv]</parent-name>
+            <remote-alias>Patient Age</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital ER_Data.csv_7744C10C2E68485DA9B2E44790ED4B4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patient Race</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Patient Race]</local-name>
+            <parent-name>[Hospital ER_Data.csv]</parent-name>
+            <remote-alias>Patient Race</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital ER_Data.csv_7744C10C2E68485DA9B2E44790ED4B4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Department Referral</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Department Referral]</local-name>
+            <parent-name>[Hospital ER_Data.csv]</parent-name>
+            <remote-alias>Department Referral</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital ER_Data.csv_7744C10C2E68485DA9B2E44790ED4B4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patient Admission Flag</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Patient Admission Flag]</local-name>
+            <parent-name>[Hospital ER_Data.csv]</parent-name>
+            <remote-alias>Patient Admission Flag</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital ER_Data.csv_7744C10C2E68485DA9B2E44790ED4B4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patient Satisfaction Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Patient Satisfaction Score]</local-name>
+            <parent-name>[Hospital ER_Data.csv]</parent-name>
+            <remote-alias>Patient Satisfaction Score</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital ER_Data.csv_7744C10C2E68485DA9B2E44790ED4B4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patient Waittime</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Patient Waittime]</local-name>
+            <parent-name>[Hospital ER_Data.csv]</parent-name>
+            <remote-alias>Patient Waittime</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital ER_Data.csv_7744C10C2E68485DA9B2E44790ED4B4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patients CM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Patients CM]</local-name>
+            <parent-name>[Hospital ER_Data.csv]</parent-name>
+            <remote-alias>Patients CM</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital ER_Data.csv_7744C10C2E68485DA9B2E44790ED4B4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Age Groupings' datatype='string' name='[Calculation_281475004553973761]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Patient Age] &gt;=0 and [Patient Age] &lt;=10 then &apos;0-18&apos;&#13;&#10;ELSEIF [Patient Age] &gt;=19 and [Patient Age] &lt;=65 then &apos;19-65&apos;&#13;&#10;ELSEIF [Patient Age] &gt;=66 then &apos;66+&apos;&#13;&#10;END' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Hospital ER_Data.csv' datatype='table' name='[__tableau_internal_object_id__].[Hospital ER_Data.csv_7744C10C2E68485DA9B2E44790ED4B4B]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_281475004553973761]' derivation='None' name='[none:Calculation_281475004553973761:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Calculation_281475004553973761:nk]' palette='tableau-10-medium' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>&quot;0-18&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#c5b0d5'>
+              <bucket>&quot;66+&quot;</bucket>
+            </map>
+            <map to='#e377c2'>
+              <bucket>&quot;19-65&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;0-10&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Hospital ER_Data.csv' id='Hospital ER_Data.csv_7744C10C2E68485DA9B2E44790ED4B4B'>
+            <properties context=''>
+              <relation connection='textscan.188ig2t0cuknu51cuwe9h0q20i8w' name='Hospital ER_Data.csv' table='[Hospital ER_Data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Patient Id' ordinal='0' />
+                  <column datatype='datetime' name='Patient Admission Date' ordinal='1' />
+                  <column datatype='string' name='Patient First Inital' ordinal='2' />
+                  <column datatype='string' name='Patient Last Name' ordinal='3' />
+                  <column datatype='string' name='Patient Gender' ordinal='4' />
+                  <column datatype='integer' name='Patient Age' ordinal='5' />
+                  <column datatype='string' name='Patient Race' ordinal='6' />
+                  <column datatype='string' name='Department Referral' ordinal='7' />
+                  <column datatype='boolean' name='Patient Admission Flag' ordinal='8' />
+                  <column datatype='integer' name='Patient Satisfaction Score' ordinal='9' />
+                  <column datatype='integer' name='Patient Waittime' ordinal='10' />
+                  <column datatype='integer' name='Patients CM' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='# Pats ER'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hospital ER_Data' name='federated.18s0ba30gnluvr1e3069l0g0o0hu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18s0ba30gnluvr1e3069l0g0o0hu'>
+            <column datatype='string' name='[Patient Id]' role='dimension' type='nominal' />
+            <column-instance column='[Patient Id]' derivation='Count' name='[cnt:Patient Id:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' value='114' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#9ae7e7' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#666666' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'># of Patients:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontname='Tableau Medium' fontsize='16'># of patients visiting ER </run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontname='Tableau Medium' fontsize='16'><![CDATA[<[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{2F676406-7F7C-4530-B164-AE39079ED462}' />
+    </worksheet>
+    <worksheet name='# of Patients by Age'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run># of Patients by Age group in ER</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hospital ER_Data' name='federated.18s0ba30gnluvr1e3069l0g0o0hu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18s0ba30gnluvr1e3069l0g0o0hu'>
+            <column caption='Age Groupings' datatype='string' name='[Calculation_281475004553973761]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Patient Age] &gt;=0 and [Patient Age] &lt;=10 then &apos;0-18&apos;&#13;&#10;ELSEIF [Patient Age] &gt;=19 and [Patient Age] &lt;=65 then &apos;19-65&apos;&#13;&#10;ELSEIF [Patient Age] &gt;=66 then &apos;66+&apos;&#13;&#10;END' />
+            </column>
+            <column datatype='datetime' name='[Patient Admission Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Patient Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Patient Id]' role='dimension' type='nominal' />
+            <column-instance column='[Patient Id]' derivation='Count' name='[cnt:Patient Id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_281475004553973761]' derivation='None' name='[none:Calculation_281475004553973761:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Patient Admission Date]' derivation='Month-Trunc' name='[tmn:Patient Admission Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Calculation_281475004553973761:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Calculation_281475004553973761:nk]' />
+              <groupfilter function='member' level='[none:Calculation_281475004553973761:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Calculation_281475004553973761:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;0-18&quot;</bucket>
+              <bucket>&quot;19-65&quot;</bucket>
+              <bucket>&quot;66+&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Calculation_281475004553973761:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='auto-subtitle' class='0' field='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[tmn:Patient Admission Date:qk]' scope='cols' value='true' />
+            <format attr='title' class='0' field='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[tmn:Patient Admission Date:qk]' scope='cols' value='' />
+            <format attr='title' class='0' field='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]' scope='rows' value='' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[tmn:Patient Admission Date:qk]' value='*mmmm d, yyyy' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[tmn:Patient Admission Date:qk]' value='*mmm-yy' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f3faf9' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#f3faf9' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Calculation_281475004553973761:nk]' />
+              <text column='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Calculation_281475004553973761:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Age Groupings:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Calculation_281475004553973761:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Month of Patient Admission Date:	</run>
+                <run bold='true'><![CDATA[<[federated.18s0ba30gnluvr1e3069l0g0o0hu].[tmn:Patient Admission Date:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>No. of Patients: &#9;</run>
+                <run bold='true'><![CDATA[<[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</rows>
+        <cols>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[tmn:Patient Admission Date:qk]</cols>
+      </table>
+      <simple-id uuid='{EB74EB69-0556-489D-BAA2-DD9CA717C8F0}' />
+    </worksheet>
+    <worksheet name='Average Satisfaction'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hospital ER_Data' name='federated.18s0ba30gnluvr1e3069l0g0o0hu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18s0ba30gnluvr1e3069l0g0o0hu'>
+            <column datatype='integer' name='[Patient Satisfaction Score]' role='measure' type='quantitative' />
+            <column-instance column='[Patient Satisfaction Score]' derivation='Avg' name='[avg:Patient Satisfaction Score:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[avg:Patient Satisfaction Score:qk]' value='n#,##0.00;-#,##0.00' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[avg:Patient Satisfaction Score:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontsize='14'><![CDATA[Average Patient Satisfaction 
+<[federated.18s0ba30gnluvr1e3069l0g0o0hu].[avg:Patient Satisfaction Score:qk]>/10
+]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A246882D-B0A2-449D-B501-49BDE8AE751D}' />
+    </worksheet>
+    <worksheet name='Average WaitTime'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hospital ER_Data' name='federated.18s0ba30gnluvr1e3069l0g0o0hu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18s0ba30gnluvr1e3069l0g0o0hu'>
+            <column datatype='integer' name='[Patient Waittime]' role='measure' type='quantitative' />
+            <column-instance column='[Patient Waittime]' derivation='Avg' name='[avg:Patient Waittime:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='font-weight' scope='rows' value='bold' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='9' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[avg:Patient Waittime:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontsize='14'>Average Wait Time</run>
+                <run>Æ&#10;</run>
+                <run fontsize='14'><![CDATA[<[federated.18s0ba30gnluvr1e3069l0g0o0hu].[avg:Patient Waittime:qk]>]]></run>
+                <run>min</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{36AA4FC6-0C5A-4B9B-81A5-AD8DE3254FF0}' />
+    </worksheet>
+    <worksheet name='Gender'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hospital ER_Data' name='federated.18s0ba30gnluvr1e3069l0g0o0hu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18s0ba30gnluvr1e3069l0g0o0hu'>
+            <column datatype='string' name='[Patient Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Patient Id]' role='dimension' type='nominal' />
+            <column-instance column='[Patient Gender]' derivation='None' name='[none:Patient Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Patient Id]' derivation='Count' name='[pcto:cnt:Patient Id:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Patient Gender:nk]' value='60' />
+            <format attr='width' value='104' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Patient Gender:nk]' value='40' />
+            <format attr='font-size' data-class='total' field='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Patient Gender:nk]' value='14' />
+            <format attr='band-color' scope='rows' value='#9ae7e7' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-weight' field='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Patient Gender:nk]' value='bold' />
+            <format attr='font-size' field='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Patient Gender:nk]' value='12' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#9ae7e7' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='color' value='#555555' />
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[pcto:cnt:Patient Id:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Patient Gender:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Patient Gender:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>% of Patients:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.18s0ba30gnluvr1e3069l0g0o0hu].[pcto:cnt:Patient Id:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Patient Gender:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{071B33EB-770C-48B3-A360-C49E1B63BC59}' />
+    </worksheet>
+    <worksheet name='HeatMap'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hospital ER_Data' name='federated.18s0ba30gnluvr1e3069l0g0o0hu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18s0ba30gnluvr1e3069l0g0o0hu'>
+            <column datatype='datetime' name='[Patient Admission Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Patient Waittime]' role='measure' type='quantitative' />
+            <column-instance column='[Patient Waittime]' derivation='Avg' name='[avg:Patient Waittime:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Patient Admission Date]' derivation='Hour' name='[hr:Patient Admission Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Patient Admission Date]' derivation='Weekday' name='[wd:Patient Admission Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='border-color' value='#ffffff' />
+            <format attr='border-style' value='solid' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-color' scope='rows' value='#ffffff' />
+            <format attr='border-style' scope='rows' value='solid' />
+            <format attr='border-style' scope='cols' value='solid' />
+            <format attr='border-width' scope='cols' value='2' />
+            <format attr='border-width' scope='rows' value='2' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[hr:Patient Admission Date:ok]' value='ih a' />
+            <format attr='text-format' field='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[wd:Patient Admission Date:ok]' value='ieee' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[avg:Patient Waittime:qk]' palette='tableau-map-blue-green' type='interpolated' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f2f9f9' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#f3faf9' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[avg:Patient Waittime:qk]' />
+              <text column='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[avg:Patient Waittime:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Hour of Patient Admission Date:	</run>
+                <run bold='true'><![CDATA[<[federated.18s0ba30gnluvr1e3069l0g0o0hu].[hr:Patient Admission Date:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Weekday of Patient Admission Date:	</run>
+                <run bold='true'><![CDATA[<[federated.18s0ba30gnluvr1e3069l0g0o0hu].[wd:Patient Admission Date:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Avg. Patient Waittime:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.18s0ba30gnluvr1e3069l0g0o0hu].[avg:Patient Waittime:qk]>mins]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[hr:Patient Admission Date:ok]</rows>
+        <cols>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[wd:Patient Admission Date:ok]</cols>
+      </table>
+      <simple-id uuid='{D2278A32-7BB9-4FF2-8B2E-C422C8C60670}' />
+    </worksheet>
+    <worksheet name='Patient Satisfaction'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hospital ER_Data' name='federated.18s0ba30gnluvr1e3069l0g0o0hu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18s0ba30gnluvr1e3069l0g0o0hu'>
+            <column datatype='datetime' name='[Patient Admission Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Patient Satisfaction Score]' role='measure' type='quantitative' />
+            <column-instance column='[Patient Satisfaction Score]' derivation='Avg' name='[avg:Patient Satisfaction Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Patient Admission Date]' derivation='Month-Trunc' name='[tmn:Patient Admission Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[avg:Patient Satisfaction Score:qk]' field-type='quantitative' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[avg:Patient Satisfaction Score:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[tmn:Patient Admission Date:qk]' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[avg:Patient Satisfaction Score:qk]</rows>
+        <cols>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[tmn:Patient Admission Date:qk]</cols>
+      </table>
+      <simple-id uuid='{1E5E3B87-77E0-48A4-A828-FAE6FC333AFD}' />
+    </worksheet>
+    <worksheet name='Patients by Race'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hospital ER_Data' name='federated.18s0ba30gnluvr1e3069l0g0o0hu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18s0ba30gnluvr1e3069l0g0o0hu'>
+            <column datatype='string' name='[Patient Id]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Patient Race]' role='dimension' type='nominal' />
+            <column-instance column='[Patient Id]' derivation='Count' name='[cnt:Patient Id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Patient Race]' derivation='None' name='[none:Patient Race:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Patient Race:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f3faf9' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#f2f6f7' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Patient Race:nk]</rows>
+        <cols>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Patient Race:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Patient Race:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2571</value>
+                <value>&quot;White&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Patient Race:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Patient Race:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1951</value>
+                <value>&quot;African American&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Patient Race:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Patient Race:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1557</value>
+                <value>&quot;Two or More Races&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='3' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Patient Race:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Patient Race:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1060</value>
+                <value>&quot;Asian&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='4' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Patient Race:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Patient Race:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1030</value>
+                <value>&quot;Declined to Identify&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='5' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Patient Race:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Patient Race:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>549</value>
+                <value>&quot;Pacific Islander&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='6' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Patient Race:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Patient Race:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>498</value>
+                <value>&quot;Native American/Alaska Native&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{82B5CE8E-096A-4072-A072-BADB3AC86059}' />
+    </worksheet>
+    <worksheet name='Patiets by Department'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hospital ER_Data' name='federated.18s0ba30gnluvr1e3069l0g0o0hu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18s0ba30gnluvr1e3069l0g0o0hu'>
+            <column datatype='string' name='[Department Referral]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Patient Id]' role='dimension' type='nominal' />
+            <column-instance column='[Patient Id]' derivation='Count' name='[cnt:Patient Id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Department Referral]' derivation='None' name='[none:Department Referral:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Department Referral:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Department Referral:nk]' />
+              <groupfilter function='member' level='[none:Department Referral:nk]' member='&quot;None&quot;' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Department Referral:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Department Referral:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f2f9f9' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Department Referral:nk]</rows>
+        <cols>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Department Referral:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Department Referral:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1840</value>
+                <value>&quot;General Practice&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Department Referral:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Department Referral:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>995</value>
+                <value>&quot;Orthopedics&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Department Referral:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Department Referral:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>276</value>
+                <value>&quot;Physiotherapy&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='3' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Department Referral:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Department Referral:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>248</value>
+                <value>&quot;Cardiology&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='4' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Department Referral:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Department Referral:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>193</value>
+                <value>&quot;Neurology&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='5' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Department Referral:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Department Referral:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>178</value>
+                <value>&quot;Gastroenterology&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='6' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Department Referral:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]</field>
+                  <field>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Department Referral:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>86</value>
+                <value>&quot;Renal&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{7F6539D2-24F4-42EC-86C8-CB7F3FD15EE8}' />
+    </worksheet>
+    <worksheet name='WaitTime  Average'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hospital ER_Data' name='federated.18s0ba30gnluvr1e3069l0g0o0hu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18s0ba30gnluvr1e3069l0g0o0hu'>
+            <column datatype='datetime' name='[Patient Admission Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Patient Waittime]' role='measure' type='quantitative' />
+            <column-instance column='[Patient Waittime]' derivation='Avg' name='[avg:Patient Waittime:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Patient Admission Date]' derivation='Month-Trunc' name='[tmn:Patient Admission Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[tmn:Patient Admission Date:qk]' scope='cols' value='false' />
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[avg:Patient Waittime:qk]' field-type='quantitative' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[avg:Patient Waittime:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#ffaa7f' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[avg:Patient Waittime:qk]</rows>
+        <cols>[federated.18s0ba30gnluvr1e3069l0g0o0hu].[tmn:Patient Admission Date:qk]</cols>
+      </table>
+      <simple-id uuid='{41110FCA-6886-448D-B7E5-C7283E8AB995}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#f9e9e0' />
+        </style-rule>
+      </style>
+      <size maxheight='768' maxwidth='1366' minheight='768' minwidth='1366' preset-index='0' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='36718' id='5' param='horz' type-v2='layout-flow' w='53770' x='586' y='62240'>
+            <zone h='34114' id='24' name='HeatMap' w='52306' x='1318' y='63542'>
+              <layout-cache fixed-size-h='546' type-h='fixed' type-w='cell' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone h='11458' id='6' param='horz' type-v2='layout-flow' w='98828' x='586' y='1042'>
+            <zone forceUpdate='true' h='11458' id='7' type-v2='text' w='98828' x='586' y='1042'>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontname='Tableau Medium' fontsize='24'>Emergency Room Dashboard</run>
+              </formatted-text>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone h='29786' id='8' param='horz' type-v2='layout-flow' w='53770' x='586' y='32454'>
+            <zone h='27182' id='22' name='# of Patients by Age' w='52306' x='1318' y='33756'>
+              <layout-cache minwidth='130' type-h='fixed' type-w='scalable' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone h='11084' id='9' param='horz' type-v2='layout-flow' w='32796' x='66618' y='21370'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='background-color' value='#e6e6e6' />
+            </zone-style>
+          </zone>
+          <zone h='19954' id='11' param='horz' type-v2='layout-flow' w='29721' x='586' y='12500'>
+            <zone fixed-size='231' h='17350' id='20' is-fixed='true' name='# Pats ER' show-title='false' w='28257' x='1318' y='13802'>
+              <layout-cache fixed-size-h='114' type-h='fixed' type-w='cell' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='10' />
+                <format attr='background-color' value='#d08b00' />
+              </zone-style>
+            </zone>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='10' />
+              <format attr='background-color' value='#eff3e3' />
+            </zone-style>
+          </zone>
+          <zone h='11084' id='12' param='horz' type-v2='layout-flow' w='24012' x='42606' y='21370'>
+            <zone h='11084' id='29' name='WaitTime  Average' show-title='false' w='24012' x='42606' y='21370'>
+              <layout-cache minwidth='100' type-h='fixed' type-w='scalable' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='0' />
+              <format attr='background-color' value='#f3ebf3' />
+            </zone-style>
+          </zone>
+          <zone h='29786' id='13' param='horz' type-v2='layout-flow' w='45058' x='54356' y='32454'>
+            <zone h='27182' id='26' name='Patients by Race' w='43594' x='55088' y='33756'>
+              <layout-cache minwidth='260' type-h='fixed' type-w='scalable' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='10' />
+              <format attr='background-color' value='#e6ecf0' />
+            </zone-style>
+          </zone>
+          <zone h='36718' id='15' param='horz' type-v2='layout-flow' w='45058' x='54356' y='62240'>
+            <zone h='34114' id='28' name='Patiets by Department' w='43594' x='55088' y='63542'>
+              <layout-cache minwidth='220' type-h='fixed' type-w='scalable' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='10' />
+              <format attr='background-color' value='#f3faf9' />
+            </zone-style>
+          </zone>
+          <zone h='8870' id='16' param='horz' type-v2='layout-flow' w='12592' x='54026' y='12500'>
+            <zone h='8870' id='31' name='Average WaitTime' show-title='false' w='12592' x='54026' y='12500'>
+              <layout-cache fixed-size-w='180' type-h='cell' type-w='fixed' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='background-color' value='#dfe7e8' />
+            </zone-style>
+          </zone>
+          <zone h='8870' id='17' param='horz' type-v2='layout-flow' w='11420' x='42606' y='12500'>
+            <zone h='8870' id='30' is-scaled='1' param='C:/Users/amans/Downloads/istockphoto-1699834729-1024x1024.jpg' type-v2='bitmap' w='11420' x='42606' y='12500'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='background-color' value='#f5eddc' />
+            </zone-style>
+          </zone>
+          <zone h='8870' id='18' param='horz' type-v2='layout-flow' w='16398' x='83016' y='12500'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='background-color' value='#f0f3fa' />
+            </zone-style>
+          </zone>
+          <zone h='8870' id='19' param='horz' type-v2='layout-flow' w='16398' x='66618' y='12500'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='background-color' value='#f0f1e8' />
+            </zone-style>
+          </zone>
+          <zone h='19954' id='21' name='Gender' show-title='false' w='12299' x='30307' y='12500'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1550' minheight='1550' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='33' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='32' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone forceUpdate='true' h='11458' id='7' type-v2='text' w='98828' x='586' y='1042'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontname='Tableau Medium' fontsize='24'>Emergency Room Dashboard</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='145' h='19954' id='21' is-fixed='true' name='Gender' show-title='false' w='12299' x='30307' y='12500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='60' h='8870' id='30' is-fixed='true' is-scaled='1' param='C:/Users/amans/Downloads/istockphoto-1699834729-1024x1024.jpg' type-v2='bitmap' w='11420' x='42606' y='12500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='60' h='8870' id='31' is-fixed='true' name='Average WaitTime' show-title='false' w='12592' x='54026' y='12500'>
+                  <layout-cache fixed-size-w='180' type-h='cell' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='113' h='17350' id='20' is-fixed='true' name='# Pats ER' show-title='false' w='28257' x='1318' y='13802'>
+                  <layout-cache fixed-size-h='114' type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#d08b00' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='77' h='11084' id='29' is-fixed='true' name='WaitTime  Average' show-title='false' w='24012' x='42606' y='21370'>
+                  <layout-cache minwidth='100' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='201' h='27182' id='22' is-fixed='true' name='# of Patients by Age' w='52306' x='1318' y='33756'>
+                  <layout-cache minwidth='130' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='201' h='27182' id='26' is-fixed='true' name='Patients by Race' w='43594' x='55088' y='33756'>
+                  <layout-cache minwidth='260' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='254' h='34114' id='24' is-fixed='true' name='HeatMap' w='52306' x='1318' y='63542'>
+                  <layout-cache fixed-size-h='546' type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='254' h='34114' id='28' is-fixed='true' name='Patiets by Department' w='43594' x='55088' y='63542'>
+                  <layout-cache minwidth='220' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{F585E21B-555F-4B72-825B-E356994593B4}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='# Pats ER'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{149BC6EB-EEBC-4EE6-9C49-528013251754}' />
+    </window>
+    <window class='worksheet' name='Gender'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B63E7266-8D68-4975-95C3-26E631E953EA}' />
+    </window>
+    <window class='worksheet' name='Patient Satisfaction'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{95A448CF-E3B1-4923-B16C-161D284DA7EB}' />
+    </window>
+    <window class='worksheet' maximized='true' name='WaitTime  Average'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{99A5504E-ADBF-419D-9288-05E7BDD6F702}' />
+    </window>
+    <window class='worksheet' name='Average Satisfaction'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B4C5EBE5-12B5-4677-B38B-D5F8CDAFCD5E}' />
+    </window>
+    <window class='worksheet' name='Average WaitTime'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9EE3EFD4-7241-4F54-A61F-7C9335636432}' />
+    </window>
+    <window class='worksheet' name='HeatMap'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[avg:Patient Waittime:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2DC30369-D9A4-4EE7-9A71-26BDC3AD3E55}' />
+    </window>
+    <window class='worksheet' name='# of Patients by Age'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[none:Calculation_281475004553973761:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{299E50CD-6BE3-45A2-A5CC-25EB7DFAB076}' />
+    </window>
+    <window class='worksheet' name='Patients by Race'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C081D34D-4A0D-45FB-B33D-3743335C1031}' />
+    </window>
+    <window class='worksheet' name='Patiets by Department'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.18s0ba30gnluvr1e3069l0g0o0hu].[cnt:Patient Id:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0852167F-0344-4442-9D7D-C20B5BA3BD73}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='# Pats ER'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='# of Patients by Age'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Average WaitTime' />
+        <viewpoint name='Gender'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='HeatMap'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Patients by Race' />
+        <viewpoint name='Patiets by Department' />
+        <viewpoint name='WaitTime  Average'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{9715A95D-085B-40D4-8C41-18A37B6F2C44}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='WaitTime  Average' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
